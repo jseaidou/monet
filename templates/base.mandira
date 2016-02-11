@@ -37,20 +37,19 @@
     <body onload="prettyPrint();">
         <div class="content">
             <div class="container frontend">
-                <h1><a href="/">jmoiron</a> <span class="sub">plays the blues</span></h1>
+                <h1><a href="/">Jamil Seaidoun</a> <span class="sub">plays the blues</span></h1>
                 {{{body}}}
             </div>
         </div>
         <div class="footer">
             <div class="container">
                 <div class="link-icons">
-                  <span class="icon github"><a href="http://github.com/jmoiron">G</a></span>
-                  <span class="icon twitter"><a href="http://twitter.com/jmoiron">t</a></span>
-                  <a href="http://news.ycombinator.com/user?id=jmoiron" class="yc">Y</a>
+                  <span class="icon github"><a href="http://github.com/jseaidou">G</a></span>
+                  <a href="http://news.ycombinator.com/user?id=jseaidou" class="yc">Y</a>
                   <a class="about" href="/about/"><i class="icon icon-info-sign"></i></a>
                 </div>
                 <div class="byline">
-                  by <a href="mailto:jmoiron,at,jmoiron,dot,net">jason moiron</a>, 2014
+                  by <a href="mailto:jamil,at,seaidoun,dot,com">Jamil Seaidoun</a>, 2016
                 </div>
             </div>
         </div>
