@@ -50,8 +50,8 @@ func Flatpage(ctx *web.Context, url string) string {
 
 	return template.Render("base.mandira", M{
 		"body":        p.ContentRendered,
-		"title":       "jmoiron.net",
-		"description": "Blog and assorted media from Jason Moiron.",
+		"title":       "Jamil Seaidoun",
+		"description": "Blog and assorted media from Jamil Seaidoun.",
 	})
 }
 
@@ -78,7 +78,7 @@ func Index() string {
 		"Post":        RenderPost(post),
 		"Posts":       renderPosts,
 		"Entries":     entries,
-		"title":       "jmoiron.net",
+		"title":       "Jamil Seaidoun",
 		"description": post.Summary})
 }
 
