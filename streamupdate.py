@@ -28,7 +28,7 @@ config = json.load(open(os.path.join(moddir, "config.json")))
 
 host = config.get("DbHost", "localhost")
 port = config.get("DbPort", 27017)
-con = pymongo.Connection(host, port)
+con = pymongo.MongoClient(host, port)
 db = con.monet
 
 def touch(path, times=None):
